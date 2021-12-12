@@ -4,4 +4,4 @@
 dict1 = {"a": "aaa", "b": "bbb"}
 dict2 = {"x": "xxx", "y": "yyy"}
 value = dict1.get("z", 0.0)
-print(value, dict1)
+print(value, dict1, "test")
