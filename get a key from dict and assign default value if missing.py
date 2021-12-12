@@ -1,7 +1,3 @@
-set1 = {1, 3, 4, 6}
-set2 = {1, 2, 5, 7}
-print("a")
-
 # assign default values
 # retrieve a value from a dict - but assign default value if it is missing (key)
 
