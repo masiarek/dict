@@ -1,10 +1,11 @@
 import csv
 from collections import defaultdict
-ra = csv.DictReader(open('a.csv'))
-rb = csv.DictReader(open('b.csv'))
-rc = csv.DictReader(open('c.csv'))
+
+ra = csv.DictReader(open("a.csv"))
+rb = csv.DictReader(open("b.csv"))
+rc = csv.DictReader(open("c.csv"))
 all_keys = set()
-print('a', list(ra))
+print("a", list(ra))
 dd = defaultdict(list)
 # for e in ra:
 #     all_keys.add(e['ak'])
@@ -18,3 +19,5 @@ dd = defaultdict(list)
 print(sorted(all_keys))
 dd.update(ra)
 print((dd))
+
+print("testttt3")
